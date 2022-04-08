@@ -1,0 +1,15 @@
+phonebook = dict()
+
+phonebook['brian'] = '0725262722'
+phonebook['ruth'] = '072345221'
+phonebook['mercy'] = '073568772'
+phonebook['gerard'] = '073465622'
+phonebook['mark'] = '073567533'
+
+del phonebook['gerard']
+# print(phonebook)
+
+for key, value in enumerate(phonebook.items(), start=1):
+    print(key, ' - ', value)
+
+
